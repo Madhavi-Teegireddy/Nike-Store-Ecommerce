@@ -1,9 +1,19 @@
 import { StarIcon, ShoppingBagIcon } from '@heroicons/react/24/solid'
 import React from 'react'
+import { useDispatch } from 'react-redux'
 
 const Item = ({ifExists, id, color, shadow, title,
 text, img, btn, rating, price}) => {
     console.log(id)
+    const dispatch = useDispatch();
+
+    const onAddToCart = () => {
+      const item = { id, title, text, img, color, shadow, price };
+  
+      dispatch(setAddItemToCart(item));
+    };
+
+
   return (
     <>
     <div className={`relative bg-gradient-to-b ${color} ${shadow} grid items-center ${
