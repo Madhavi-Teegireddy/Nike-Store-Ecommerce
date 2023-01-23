@@ -1,7 +1,7 @@
 # Nike-Store-Ecommerce 🛒
 
 🔗Live Link:https://nike-store-ecommerce-opal.vercel.app/ </br></br>
-This Ecommerce website built by using React, Redux-Toolkit, tailwind.It is an individual project completed in 4 days.
+This Ecommerce website built by using React, Redux-Toolkit, tailwind. It is an individual project completed in 4 days.
 
 # ‎‍💻Tech Stacks used
 - React:
